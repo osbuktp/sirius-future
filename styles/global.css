@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+
+    /* vars */
+
+    /* colors */
+    --color-text: black;
+    --color-text-inactive: #808080;
+    --color-primary: white;
+    --color-primary-hover: #F4F6F9;
+    --color-secondary: #EDF0F5;
+    --color-accent-green: #52AD5B;
+    --color-accent-blue: #2E71F3;
+
+    /* paddings */
+    --padding-l: 45px;
+    --padding-m: 30px;
+    --padding-s: 20px;
+    --padding-xs: 15px;
+    --padding: --padding-m;
+
+    /* borders */
+    --border-radius: 4px;
+}
